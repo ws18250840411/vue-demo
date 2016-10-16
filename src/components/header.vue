@@ -7,7 +7,7 @@
 	export default {
 		data() {
 			return {
-		      message: '福州-大雨',
+		      message: '用户信息录入页面',
 		      name:'dayu'
 		    }
 		}
