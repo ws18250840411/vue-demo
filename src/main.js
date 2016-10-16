@@ -4,7 +4,8 @@ var App = require('./app.vue')
 var vueResource = require('vue-resource')
 var VueRouter = require('vue-router')
 //var routerConfig = require('./router.js') 
-import routerConfig from './router.js'
+import routerConfig from './router.js';
+
 Vue.use(VueRouter)
 Vue.use(vueResource) 
 

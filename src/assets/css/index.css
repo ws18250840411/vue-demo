@@ -2,3 +2,31 @@
 margin: 0;
 padding: 0;
 }
+
+/*头部*/
+.bar-nav h1 {
+    width: 100%;
+    padding:20px 0;
+    border-bottom:1px solid #ccc;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bar-form form .form-group {
+    float: left;
+    width: 100%;
+}
+.bar-form form .form-group label {
+    padding-top: 8px;
+}
+.sure-inf {
+    color: #ccc;
+}
+.errors {
+    padding: 2px 0;
+    color: red;
+}
+.infs-footer {
+    padding: 15px;
+    text-align: right;
+}

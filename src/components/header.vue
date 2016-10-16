@@ -1,5 +1,5 @@
 <template>
-	<header class="bar bar-nav">
+	<header class="bar-nav">
 		<h1 class="title">{{message}}</h1>
 	</header>
 </template>

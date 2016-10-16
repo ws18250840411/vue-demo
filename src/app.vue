@@ -16,7 +16,7 @@
 	export default {
 		replace: false,
 		ready() {
-			$.init();
+
 		},
 		components:{
 			headTab,
