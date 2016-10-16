@@ -1,3 +1,9 @@
+#这是一个使用webpack打包，结合前端框架vue实现的用户登录系统页面
+#项目运行步骤：
+#1.在终端运行npm install;下载相应的文件包；
+#2.执行命令npm run dev，并在本地http://localhost:8080/打开index.html页面
+
+
 #Vue.js教程
 
 ##1. Getting Started

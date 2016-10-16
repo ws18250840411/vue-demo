@@ -1,12 +1,16 @@
+var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
 	entry:	'./src/main.js',
 	output:	{
-		path:'./dist/',
-		publicPath:'./dist/',
+		path: path.resolve(__dirname, './dist'),
+		publicPath:'/dist/',
 		filename:'build.js'
 	},
+	 resolveLoader: {
+	    root: path.join(__dirname, 'node_modules'),
+	 },
 	watch:true,
 	module:	{
 		loaders:[
@@ -20,7 +24,11 @@ module.exports = {
 	babel: {
         presets: ['es2015', 'stage-0'],
         plugins: ['transform-runtime']
-    }
+    },
+	devServer: {
+		historyApiFallback: true,
+		noInfo: true
+	}
 }
 
 if (process.env.NODE_ENV === 'production') {
